@@ -1,0 +1,223 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+
+<section id="section1">
+    <div class="main-section">
+        <div>
+            <h1 class="main-section-title pt-2 mb-5">Olá, eu sou Rodrigo Travessa</h1>
+            <p class="main-section-text">
+                Desenvolvedor há 2 anos e bacharelando em Ciências da Computação,
+                possuo conhecimentos de desenvolvimento web com base no ecosistema .NET,
+                em especial com tecnologias como ASP.NET, Razor Pages, SQL Server, Angular e muitos outros
+            </p>
+        </div>
+        <div>
+            <img class="main-section-image mt-5" src="~/Images/ThreeMonitorImage.png">
+        </div>
+    </div>
+</section>
+<section id="section2">
+    <div class="main-section">
+
+        <div>
+            <img class="main-section-image mt-5" src="~/Images/TechStack.png">
+        </div>
+        <div>
+            <h2 class="main-section-title pt-2 ">Principais Tecnologias</h2>
+            <p class="main-section-text">
+                Como desenvolvedor Web Full Stack eu uso corriqueiramente diversas ferramentas para auxiliar o desenvolvimento das minhas aplicações.</br>
+                Como Framework principal de trabalho escolho .NET com a linguagem C#.</br>
+                Como plataforma de Cloud minha expertise maior é com AZURE.</br>
+                Como banco de dados eu utilizo o SQL Server, MySQL ou PostgreSQL, muitas vezes em container Docker.</br>
+                No entanto nesses 2 anos tive contatos com DIVERSAS outras ferramentas, como RabbitMQ para mensageria, Git e Github para versionamento.</br>
+                Angular, React e VueJS para Front End assim como "Vanilla" Javascript, Typescript, HTML e CSS.</br>
+                Jenkins e Github Actions para CI/CD.</br>
+                Assim como experiência com outras linguagens como Python, Java e seu framework de Web o Springboot.</br></br>
+                Querendo saber mais sobre mim e minha jornada <a href="#">Clique Aqui</a>
+            </p>
+        </div>
+    </div>
+</section>
+<section id="section1">
+    <div class="main-section">
+        <div>
+            <div>
+                <h2 class="main-section-title mb-5 pt-5">Projetos</h2>
+            </div>
+            <div>
+
+
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="https://github.com/rodrigo-travessa/v_camp-design-patterns">
+
+                                <card style="display:flex">
+                                    <img width="45%" src="~/Images/Captura de tela 2023-12-13 144937.png" class="d-block w-80 my-card-image" alt="...">
+                                    <div class="my-card">
+                                        <h3 class="my-card-title">Projeto Design Patterns</h3>
+                                        <p class="my-card-text">
+                                            Projeto focado na implementação de diversos Design Patterns encontrados no Livro
+                                            do "Gang of Four", com o objetivo de aprender e praticar os padrões de projeto.
+                                        </p>
+                                    </div>
+                                </card>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://github.com/rodrigo-travessa/AraruamaQueEuQuero">
+
+                                <card style="display:flex">
+                                    <img width="45%" src="~/Images/Araruama.png" class="d-block w-80 my-card-image" alt="...">
+                                    <div class="my-card">
+                                        <h3 class="my-card-title">Araruama que eu Quero</h3>
+                                        <p class="my-card-text">
+                                            Projeto consiste em uma landing page com hosteamento na Azure,
+                                            o site serve para divulgação do projeto que tem como objetivo trazer para a população araruamense uma voz
+                                            forte, que se faça ouvir e provoque mudanças no município.
+                                        </p>
+                                    </div>
+                                </card>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://github.com/rodrigo-travessa/IAT-Prep-Exam">
+                                <card style="display:flex">
+                                    <img width="45%" src="~/Images/IAT.png" class="d-block w-80 my-card-image " alt="...">
+                                    <div class="my-card" style="padding-left:5px">
+                                        <h3 class="my-card-title">Preparatório Para Exame IAT</h3>
+                                        <p class="my-card-text">
+                                            O aplicativo foi criado pra resolver um problema específico,
+                                            permitir que nós que estávamos pra realizar a prova de IAT pudéssemos cadastrar nossas próprias questões
+                                            e gerar simulados para praticar, dada a especificidade da prova e a falta de conteúdo online,
+                                            o site foi criado de maneira que qualquer usuário (como eu confio nos usuários não precisei limitar acesso)
+                                            possa criar questões de múltipla escolha usando um sistema simples e intuitivo, essas questões são então
+                                            guardadas num banco de Dados SQL no provedor Cloud Azure, que permitiu que todos tivessem acesso de qualquer
+                                            lugar
+                                        </p>
+                                    </div>
+                                </card>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://github.com/rodrigo-travessa/ApresentacaoMJV">
+                                <card style="display:flex">
+                                    <img width="45%" src="~/Images/Captura de tela 2023-12-13 145022.png" class="d-block w-80 my-card-image" alt="...">
+                                    <div class="my-card">
+                                        <h3 class="my-card-title">Back End MJV</h3>
+                                        <p class="my-card-text">
+                                            Projeto de conclusão da School de .NET e C# da MJV, projeto criado em 2 partes, 1 API Web REST
+                                            com comunicação com DB usando ADO.NET (SQL escrito na mão, sem ORMs), e comunicação com Front End usando HTTP REST.
+                                        </p>
+                                    </div>
+                                </card>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://github.com/rodrigo-travessa/ApresentacaoMJV">
+                                <card style="display:flex">
+                                    <img width="45%" src="~/Images/Captura de tela 2023-12-13 145043.png" class="d-block w-80 my-card-image" alt="...">
+                                    <div class="my-card">
+                                        <h3 class="my-card-title">Front End MJV</h3>
+                                        <p class="my-card-text">
+                                            Projeto de Conclusão da School de .NET e C# da MJV, projeto ASP.NET MVC, consumindo WEB API REST
+                                            com comunicação toda em HTTP REST, permitindo CRUD de carros, usuários, e criação de locações, com validações e checagem
+                                            de disponibilidade de carros.
+                                        </p>
+                                    </div>
+                                </card>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <div class="mobile">
+                        <a href="https://github.com/rodrigo-travessa/v_camp-design-patterns">
+
+                        <div class="card-container">
+                                <div class="my-card">
+                                    <h3 class="my-card-title">Projeto Design Patterns</h3>
+                                    <p class="my-card-text">
+                                        Projeto focado na implementação de diversos Design Patterns encontrados no Livro
+                                        do "Gang of Four", com o objetivo de aprender e praticar os padrões de projeto.
+                                    </p>
+                                </div>
+                                <img src="~/Images/Captura de tela 2023-12-13 144937.png" class="d-block w-80 my-card-image" alt="...">
+                            </div>
+                        </a>
+                        <a href="https://github.com/rodrigo-travessa/AraruamaQueEuQuero">
+
+                        <div class="card-container">
+                                <div class="my-card">
+                                    <h3 class="my-card-title">Araruama que eu Quero</h3>
+                                    <p class="my-card-text">
+                                        Projeto consiste em uma landing page com hosteamento na Azure,
+                                        o site serve para divulgação do projeto que tem como objetivo trazer para a população araruamense uma voz
+                                        forte, que se faça ouvir e provoque mudanças no município.
+                                    </p>
+                                </div>
+                                <img  src="~/Images/Araruama.png" class="d-block w-80 my-card-image" alt="...">
+                            </div>
+                        </a>
+                    
+                        <a href="https://github.com/rodrigo-travessa/IAT-Prep-Exam">
+                            <div class="card-container">
+                                <div class="my-card" style="padding-left:5px">
+                                    <h3 class="my-card-title">Preparatório Para Exame IAT</h3>
+                                    <p class="my-card-text">
+                                        O aplicativo foi criado pra resolver um problema específico,
+                                        permitir que nós que estávamos pra realizar a prova de IAT pudéssemos cadastrar nossas próprias questões
+                                        e gerar simulados para praticar, dada a especificidade da prova e a falta de conteúdo online,
+                                        o site foi criado de maneira que qualquer usuário (como eu confio nos usuários não precisei limitar acesso)
+                                        possa criar questões de múltipla escolha usando um sistema simples e intuitivo, essas questões são então
+                                        guardadas num banco de Dados SQL no provedor Cloud Azure, que permitiu que todos tivessem acesso de qualquer
+                                        lugar
+                                    </p>
+                                </div>
+                                <img  src="~/Images/IAT.png" class="d-block w-80 my-card-image " alt="...">
+                            </div>
+                        </a>
+                    
+                        <a href="https://github.com/rodrigo-travessa/ApresentacaoMJV">
+                        <div class="card-container">
+                                <div class="my-card">
+                                    <h3 class="my-card-title">Back End MJV</h3>
+                                    <p class="my-card-text">
+                                        Projeto de conclusão da School de .NET e C# da MJV, projeto criado em 2 partes, 1 API Web REST
+                                        com comunicação com DB usando ADO.NET (SQL escrito na mão, sem ORMs), e comunicação com Front End usando HTTP REST.
+                                    </p>
+                                </div>
+                                <img src="~/Images/Captura de tela 2023-12-13 145022.png" class="d-block w-80 my-card-image" alt="...">
+                            </div>
+                        </a>
+                   
+                        <a href="https://github.com/rodrigo-travessa/ApresentacaoMJV">
+                        <div class="card-container">
+                                <div class="my-card">
+                                    <h3 class="my-card-title">Front End MJV</h3>
+                                    <p class="my-card-text">
+                                        Projeto de Conclusão da School de .NET e C# da MJV, projeto ASP.NET MVC, consumindo WEB API REST
+                                        com comunicação toda em HTTP REST, permitindo CRUD de carros, usuários, e criação de locações, com validações e checagem
+                                        de disponibilidade de carros.
+                                    </p>
+                                </div>
+                                <img  src="~/Images/Captura de tela 2023-12-13 145043.png" class="d-block w-80 my-card-image" alt="...">
+                            </div>
+                        </a>
+                </div>
+            </div>
+        </div>
+</section>
