@@ -208,3 +208,23 @@ body {
 .content{
     padding: 0 10%;
 }
+
+.contato-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contato-sumary {
+    width: 100%;
+    text-align: center;
+    align-content: space-evenly;
+}
+
+.contato-sumary h1 {
+    margin-top:25px;
+    font-size: 1.6rem;
+}
+
+.form{
+    padding: 0 10%;
+}
