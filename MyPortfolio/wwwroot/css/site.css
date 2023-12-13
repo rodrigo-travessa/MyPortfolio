@@ -64,7 +64,7 @@ body {
     .main-section-text {
         text-align: left;
         padding: 5% !important;
-        margin-bottom:0;
+        margin-bottom: 0;
     }
 }
 
@@ -89,92 +89,122 @@ body {
         padding: 5% !important;
     }
 }
+
 @media(max-width: 990px) {
     .carousel {
         display: none;
     }
-    .mobile{
 
-        padding:2% !important;
+    .mobile {
+        padding: 2% !important;
         font-size: 0.9rem !important;
         gap: 0.5rem !important;
     }
-    .my-card{
+
+    .my-card {
         text-align: center;
         margin-bottom: 5%;
     }
+
     .my-card-image {
         object-fit: contain;
         width: 90%;
-        justify-self:center;
+        justify-self: center;
         padding-left: 9%;
     }
-    .card-container{
+
+    .card-container {
         background-color: #242424;
-        padding:7%;
+        padding: 7%;
         border-radius: 15px;
         margin-bottom: 5%;
     }
 }
-    @media(min-width: 990px) {
-        .mobile{
-            display: none;
-        }
-        .carousel {
-            width: 75vw;
-            position: relative;
-            background-color: #242424;
-            padding:15px;
-            border-radius:15px;
-        }
 
-        .carousel-control-next {
-            position: absolute;
-            right: -150px;
-        }
-
-        .carousel-control-prev {
-            position: absolute;
-            left: -150px;
-        }
-
-        .my-card {
-            width: 100%;
-            text-align: center;
-        }
-
-        .my-card-title {
-            margin-bottom: 15px;
-        }
-
-        .my-card-text {
-            justify-self: left !important;
-        }
-
-        .my-card-image {
-            width: 75%;
-            height: 350px;
-            object-fit:contain;
-        }
+@media(min-width: 990px) {
+    .mobile {
+        display: none;
     }
 
-    #section1 {
-        background-color: #151515;
+    .carousel {
+        width: 75vw;
+        position: relative;
+        background-color: #242424;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    .carousel-control-next {
+        position: absolute;
+        right: -150px;
+    }
+
+    .carousel-control-prev {
+        position: absolute;
+        left: -150px;
+    }
+
+    .my-card {
         width: 100%;
-        padding-bottom: 3%;
+        text-align: center;
     }
 
-    #section2 {
-        background-color: #1a1a1ae7;
+    .my-card-title {
+        margin-bottom: 15px;
+    }
+
+    .my-card-text {
+        justify-self: left !important;
+    }
+
+    .my-card-image {
+        width: 75%;
+        height: 350px;
+        object-fit: contain;
+    }
+}
+
+#section1 {
+    background-color: #151515;
+    width: 100%;
+    padding-bottom: 3%;
+}
+
+#section2 {
+    background-color: #1a1a1ae7;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+#section3 {
+    background-color: #151515;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+#first-title {
+    margin-bottom: 60px;
+}
+
+#curriculo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    #curriculo section {
         width: 100%;
     }
 
-    #section3 {
-        background-color: #151515;
-        width: 100%;
-        padding-bottom: 5%;
-    }
-
-    #first-title {
+    #curriculo h1 {
+        text-align: center;
         margin-bottom: 60px;
     }
+    #curriculo h3 {
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top:20px;
+    }
+
+.content{
+    padding: 0 10%;
+}
