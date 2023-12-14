@@ -108,9 +108,9 @@ body {
 
     .my-card-image {
         object-fit: contain;
-        width: 90%;
         justify-self: center;
-        padding-left: 9%;
+        padding-left:10%;
+        width: 90%;
     }
 
     .card-container {
@@ -145,7 +145,7 @@ body {
     }
 
     .my-card {
-        width: 100%;
+        width: 50%;
         text-align: center;
     }
 
@@ -158,12 +158,18 @@ body {
     }
 
     .my-card-image {
-        width: 75%;
         height: 350px;
+        width: 50%;
         object-fit: contain;
+        border-radius: 30px !important;
     }
+
+
 }
 
+b{
+    color: #ffffff
+}
 #section1 {
     background-color: #151515;
     width: 100%;
